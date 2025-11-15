@@ -122,30 +122,36 @@ Para visualizar o armazenamento que está disponível na instância, no terminal
 df -h
 Você deve ver uma saída semelhante à seguinte:
 
+
 Filesystem      Size  Used Avail Use% Mounted on
 devtmpfs        488M   60K  488M   1% /dev
 tmpfs           497M     0  497M   0% /dev/shm
 /dev/xvda1      7.8G  982M  6.7G  13% /
 Esses resultados mostram o volume de disco original de 8 GB. Seu novo volume ainda não aparece.
 
+
 Para criar um sistema de arquivos ext3 no novo volume, execute o seguinte comando:
 
 sudo mkfs -t ext3 /dev/sdf
 Para criar um diretório para montar o novo volume de armazenamento, execute o seguinte comando:
 
+
 sudo mkdir /mnt/data-store
 Para montar o novo volume, execute o seguinte comando:
+
 
 sudo mount /dev/sdf /mnt/data-store
 echo "/dev/sdf   /mnt/data-store ext3 defaults,noatime 1 2" | sudo tee -a /etc/fstab
 A última linha desse comando garante que o volume seja montado mesmo depois que a instância for reiniciada.
 
+
 Para visualizar o arquivo de configuração e ver a configuração na última linha, execute o seguinte comando:
 
 cat /etc/fstab
-Para exibir o armazenamento disponível novamente, execute o seguinte comando:
 
+Para exibir o armazenamento disponível novamente, execute o seguinte comando:
 df -h
+
 A saída agora contém uma linha adicional semelhante à seguinte: /dev/xvdf
 
 Filesystem      Size  Used Avail Use% Mounted on
@@ -153,14 +159,14 @@ devtmpfs        488M   60K  488M   1% /dev
 tmpfs           497M     0  497M   0% /dev/shm
 /dev/xvda1      7.8G  982M  6.7G  13% /
 /dev/xvdf       976M  1.3M  924M   1% /mnt/data-store
-Para criar um arquivo e adicionar texto no volume montado, execute o seguinte comando:
 
+Para criar um arquivo e adicionar texto no volume montado, execute o seguinte comando:
 sudo sh -c "echo some text has been written > /mnt/data-store/file.txt"
+
 Para verificar se o texto foi gravado no volume, execute o seguinte comando:
 
 cat /mnt/data-store/file.txt
    A saída exibe o texto que esse comando copia para o arquivo. 
-
  
 
 Tarefa 5: Criar um snapshot do Amazon EBS
@@ -236,9 +242,12 @@ Selecione Associar volume.
 O Status do volume do seu volume agora é Em uso.
 
 Tarefa 6.3: Montar o volume restaurado
+
 Para criar um diretório e montar o novo volume de armazenamento, no terminal do EC2 Instance Connect, execute o seguinte comando:
 
 sudo mkdir /mnt/data-store2
+
+
 Para montar o novo volume, execute o seguinte comando:
 
 sudo mount /dev/sdg /mnt/data-store2
@@ -246,7 +255,6 @@ Para verificar se o volume que você montou tem o arquivo criado anteriormente, 
 
 ls /mnt/data-store2/file.txt
 Você deve ver o arquivo file.txt.
-
  
 
 Conclusão
@@ -259,3 +267,9 @@ Anexou e montou o volume do EBS em uma instância do EC2.
 Criou um snapshot de um volume do EBS.
 
 Criou um volume do EBS com base em um snapshot.
+
+<img width="1920" height="1080" alt="Lab 182 2" src="https://github.com/user-attachments/assets/e5034969-a16b-4199-906a-3af06f218b74" />
+
+
+
+
