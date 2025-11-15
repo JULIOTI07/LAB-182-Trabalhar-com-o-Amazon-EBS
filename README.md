@@ -255,7 +255,30 @@ Para verificar se o volume que você montou tem o arquivo criado anteriormente, 
 
 ls /mnt/data-store2/file.txt
 Você deve ver o arquivo file.txt.
- 
+
+
+<img width="1920" height="1080" alt="Lab 182 2" src="https://github.com/user-attachments/assets/e5034969-a16b-4199-906a-3af06f218b74" />
+<img width="1920" height="1080" alt="lab 182 3" src="https://github.com/user-attachments/assets/aa6331b4-4ba7-4833-b65a-c24e3e5e8e25" />
+<img width="1920" height="1080" alt="lab 182 4 1" src="https://github.com/user-attachments/assets/7f187910-d810-4f6f-894b-16062b01a33e" />
+<img width="1920" height="1080" alt="lab 182 4" src="https://github.com/user-attachments/assets/59855d43-25d2-47cb-b800-ccd532284a14" />
+<img width="1920" height="1080" alt="lab 182 4 2" src="https://github.com/user-attachments/assets/e2815bd5-65ed-44a2-87a5-4230b94677bf" />
+<img width="1920" height="1080" alt="lab 182 4 3" src="https://github.com/user-attachments/assets/564404b0-d649-4936-af37-22647f102e7a" />
+<img width="1920" height="1080" alt="lab 182 4 4" src="https://github.com/user-attachments/assets/1007ff59-d231-4dbb-88fc-d7732317a775" />
+<img width="1920" height="1080" alt="lab 182 4 5" src="https://github.com/user-attachments/assets/a51bbe35-7795-4847-9c00-3637b34a18de" />
+<img width="1920" height="1080" alt="lab 182 5 1" src="https://github.com/user-attachments/assets/ba0b9e8e-96fe-406c-8e1b-ffd273a437a1" />
+<img width="1920" height="1080" alt="lab 182 5 2" src="https://github.com/user-attachments/assets/81e2ae3d-46e8-405a-ab75-c79f22f5c18f" />
+<img width="1920" height="1080" alt="lab 182 5 3" src="https://github.com/user-attachments/assets/8ad5e1ff-dcda-4926-a903-3ed7d2b645d0" />
+<img width="1920" height="1080" alt="lab 182 5 4" src="https://github.com/user-attachments/assets/9293d034-aff8-4f6e-9669-0a03bed5b409" />
+<img width="1920" height="1080" alt="lab 182 5 5" src="https://github.com/user-attachments/assets/4f52453b-de6d-40cc-bdf3-a2092ecee49c" />
+<img width="1920" height="1080" alt="lab 182 5" src="https://github.com/user-attachments/assets/979141c9-6d6a-4b4b-bb70-8cf1c6baafc2" />
+<img width="1920" height="1080" alt="lab 182 6 1" src="https://github.com/user-attachments/assets/05b3b54a-d5a7-47d7-8445-3a94cdcc69b9" />
+<img width="1920" height="1080" alt="lab 182 6 2" src="https://github.com/user-attachments/assets/9d2c497e-a9ca-4705-82fa-91aa00cfda9c" />
+<img width="1920" height="1080" alt="lab 182 6 3" src="https://github.com/user-attachments/assets/8bcf64d4-a491-4181-8571-cfc0ac032b7a" />
+<img width="1920" height="1080" alt="lab 182 6 4" src="https://github.com/user-attachments/assets/2f882898-6328-44c0-9769-140c7f32a78d" />
+<img width="1920" height="1080" alt="lab 182 6 5" src="https://github.com/user-attachments/assets/f815a963-c560-4e9b-93c4-585eeed360a3" />
+<img width="1920" height="1080" alt="lab 182 6" src="https://github.com/user-attachments/assets/e6cae436-0406-4174-a39d-d8a17371078a" />
+<img width="1920" height="1080" alt="lab 182 7" src="https://github.com/user-attachments/assets/c74160d0-764d-4f84-861d-51f4ec3a4065" />
+
 
 Conclusão
 Parabéns! Você concluiu as seguintes tarefas com êxito:
@@ -268,7 +291,23 @@ Criou um snapshot de um volume do EBS.
 
 Criou um volume do EBS com base em um snapshot.
 
-<img width="1920" height="1080" alt="Lab 182 2" src="https://github.com/user-attachments/assets/e5034969-a16b-4199-906a-3af06f218b74" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
